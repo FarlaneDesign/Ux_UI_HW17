@@ -1,0 +1,148 @@
+.navigation {
+    width: 95%; 
+    height: 8vh;
+    background-color: #151515;
+    padding-left: 5%;
+    
+}
+
+.logo1{
+    padding: 10px;
+    float: left;
+    background-color: gold;
+    /*width: 20%;*/
+}
+
+.nav ul li  {
+    display: inline-block;
+    /*width: 50%;*/
+    /*background-color: aqua;*/
+    font-size: 24px;
+    
+}
+ul li{
+    list-style: none;
+    margin-right: 20px;
+    
+}
+
+.nav{
+    float: right;
+    clear: right;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.nav ul {
+    margin-right: 200px;
+}
+
+.logo2 {
+    float: left;
+    padding-right: 30px;
+}
+
+.nameplate {
+    float: left;
+    padding-right: 30px;
+}
+
+p {
+    position: absolute;
+}
+
+.photoshoot {
+    float: left;
+}
+
+section {
+    display: flex;
+    padding-top: 40px;
+    position: center;
+    clear: right;
+}
+
+.mytools {
+    display: inline-block;
+}
+
+.skills {
+    background-color: #151515;
+    width: 100%;
+    height: 1089px;
+    /*display: flex;*/
+    /*clear: right;*/
+}
+
+h1 {
+    color: #f4f4f4;
+    padding-left: 150px;
+    margin-bottom: auto;
+}
+.skillpart {
+    display: flex;
+}
+.skillbox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px; 
+    width: 100%;
+    height: 50vh;
+    padding-left: 30px;
+}
+
+.skillbox > div {
+    background-color: #f4f4f4;
+    width: 334px;
+    height: 328px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 500px
+
+    
+  }
+
+  .flex-container > div {
+    margin: 30px;
+
+  }
+
+  .sbox {
+    padding-left: 50px;
+  }
+  
+.section2 {
+    padding-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}

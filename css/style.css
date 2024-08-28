@@ -1,0 +1,60 @@
+.navigation {
+    width: 95%; 
+    height: 8vh;
+    background-color: #151515;
+    padding-left: 5%;
+    
+}
+
+.logo1{
+    padding: 10px;
+    float: left;
+    background-color: gold;
+    /*width: 20%;*/
+}
+
+.nav ul li  {
+    display: inline-block;
+    /*width: 50%;*/
+    background-color: aqua;
+    
+}
+ul li{
+    list-style: none;
+    margin-right: 20px
+
+}
+
+.nav{
+    float: right;
+    clear: right;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.nav ul {
+    margin-right: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
